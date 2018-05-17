@@ -1,7 +1,7 @@
 
 // Fonts
 //@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+ 
 // Variables
 @import "variables";
 //Font 
@@ -10,7 +10,9 @@
 @import "node_modules/bulma/bulma";
 //Bulma vue Module
 @import "node_modules/buefy/src/scss/buefy";
-/*.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}*/
+//Custom SASS Pages
+@import "overrides";
+@import "helpers";
+@import "styles";
+@import "manage";
+
